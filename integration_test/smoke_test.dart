@@ -5,8 +5,8 @@ import 'package:integration_test/integration_test.dart';
 import 'package:flutter_integration_test_examples/main.dart';
 
 void main() async {
+  
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-
   WidgetsFlutterBinding.ensureInitialized();
 
   testWidgets('Smoke test', (WidgetTester tester) async {
